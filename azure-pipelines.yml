@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'test_pool_selfhosted'
+  name: 'test_pool_selfhosted'
 
 strategy:
   matrix:
